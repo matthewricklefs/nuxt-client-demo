@@ -1,7 +1,7 @@
 <template>
   <div class="Hero container">
     <div class="text-container">
-      <h1 class="header">Find your Fire Extinguisher</h1>
+      <h3 class="header">Find your Fire Extinguisher</h3>
       <p class="snippet">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto
         illum quidem asperiores, cum nisi aperiam eius ipsa sapiente odit!
@@ -22,12 +22,13 @@ export default {};
 
 <style scoped>
 .Hero {
-  height: 50vh;
+  height: 80vh;
   position: relative;
   display: flex;
-  padding: 5rem 0;
+  padding: 5rem;
   align-items: flex-start;
   justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 .text-container {
@@ -37,12 +38,12 @@ export default {};
 
 .header {
   font-weight: 900;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .snippet {
   color: grey;
-  font-size: 1.25rem;
+  font-size: 1 rem;
 }
 
 .image {
